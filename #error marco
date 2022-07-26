@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+#ifndef _STRING_H
+#error INCLUDE STRING HEADER FILE
+#endif
+int main(){
+    char s[30]="Error MARCOS";
+    puts(s);
+
+    return 0;
+}
