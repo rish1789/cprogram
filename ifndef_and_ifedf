@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define NOINPT
+int main() {
+    int a=2;
+    #ifndef NOIN
+    a=7;
+    #else
+    a=8;
+    #endif
+    printf("%d",a);
+
+    return 0;
+}
