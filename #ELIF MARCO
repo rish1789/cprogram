@@ -1,0 +1,14 @@
+#include<stdio.h>
+#define COMAND 2
+int main(){
+    float c=19.5;
+    #if COMAND==1
+    c=21.6;
+    #elif COMAND==2
+    c=20.4;
+    #else
+    c=24.8;
+    #endif
+    printf("%f",c);
+    return 0;
+}
