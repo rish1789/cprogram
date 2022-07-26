@@ -1,0 +1,9 @@
+#include <stdio.h>
+#define NOINPT
+int main() {
+    int a=2;
+    #ifdef NOINPT
+    a=7;
+   #endif
+   printf("%d",a);
+}
